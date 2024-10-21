@@ -1,3 +1,5 @@
+import streamlit as st
+
 # 언어 설정
 if 'language' not in st.session_state:
     st.session_state.language = 'ko'  # 기본 언어를 한국어로 설정
